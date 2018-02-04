@@ -5,6 +5,5 @@
         <directory>vendor/silverstripe/spellcheck/tests</directory>
         <directory>vendor/silverstripe/tagfield/tests</directory>
         <directory>vendor/silverstripe/taxonomy/tests</directory>
-        <!--<directory>vendor/silverstripe/textextraction/tests</directory>-->
     </testsuite>
 </phpunit>

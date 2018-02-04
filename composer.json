@@ -13,9 +13,6 @@
         "silverstripe/tagfield": "2.x-dev",
         "silverstripe/taxonomy": "2.0.x-dev"
     },
-    "suggest": {
-        "silverstripe/textextraction": "3.x-dev (not upgraded yet)"
-    },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
     },

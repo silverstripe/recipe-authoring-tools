@@ -15,8 +15,6 @@ This includes the following core SilverStripe and CWP modules:
    (both in the CMS and other forms)
  * [silverstripe/taxonomy](https://github.com/silverstripe/silverstripe-taxonomy): Provides the capability to add and
    edit simple taxonomies within SilverStripe
- * **\[Work in progress\]** [silverstripe/textextraction](https://github.com/silverstripe/silverstripe-textextraction):
-   Text Extraction API for SilverStripe CMS
 
 This can be either added to an existing project or used as a project base for creating a basic CWP install.
 
