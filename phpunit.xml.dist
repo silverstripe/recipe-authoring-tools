@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
+    <testsuite name="recipe-authoring-tools">
+        <directory>vendor/silverstripe/documentconverter/tests</directory>
+        <directory>vendor/silverstripe/iframe/tests</directory>
+        <directory>vendor/silverstripe/spellcheck/tests</directory>
+        <directory>vendor/silverstripe/tagfield/tests</directory>
+        <directory>vendor/silverstripe/taxonomy/tests</directory>
+        <!--<directory>vendor/silverstripe/textextraction/tests</directory>-->
+    </testsuite>
+</phpunit>
