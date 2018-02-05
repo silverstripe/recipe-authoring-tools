@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/silverstripe/recipe-authoring-tools.svg?branch=master)](https://travis-ci.org/silverstripe/recipe-authoring-tools)
 
-This includes the following core SilverStripe and CWP modules:
+This includes the following core SilverStripe modules:
 
  * [silverstripe/recipe-cms](https://github.com/silverstripe/recipe-cms): Recipe containing CMS, versioned, asset-admin, etc
  * [silverstripe/documentconverter](https://github.com/silverstripe/silverstripe-documentconverter): Imports
