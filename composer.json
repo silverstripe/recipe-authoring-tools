@@ -7,10 +7,10 @@
     "require": {
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-cms": "1.1.x-dev",
-        "silverstripe/documentconverter": "2.x-dev",
+        "silverstripe/documentconverter": "2.0.x-dev",
         "silverstripe/iframe": "2.0.x-dev",
-        "silverstripe/spellcheck": "2.x-dev",
-        "silverstripe/tagfield": "2.x-dev",
+        "silverstripe/spellcheck": "2.0.x-dev",
+        "silverstripe/tagfield": "2.0.x-dev",
         "silverstripe/taxonomy": "2.0.x-dev"
     },
     "require-dev": {
