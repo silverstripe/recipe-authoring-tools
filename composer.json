@@ -6,7 +6,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-cms": "^4.4@dev",
+        "silverstripe/recipe-cms": "^4.5@dev",
         "silverstripe/documentconverter": "2.0.x-dev",
         "silverstripe/iframe": "2.0.x-dev",
         "silverstripe/spellcheck": "2.1.x-dev",
@@ -17,10 +17,7 @@
         "phpunit/phpunit": "^5.7"
     },
     "extra": {
-        "project-files": [],
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
+        "project-files": []
     },
     "config": {
         "process-timeout": 600
