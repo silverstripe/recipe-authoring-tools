@@ -6,7 +6,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-cms": "4.5.0-rc2",
+        "silverstripe/recipe-cms": "4.5.0@stable",
         "silverstripe/documentconverter": "2.0.2@stable",
         "silverstripe/iframe": "2.0.4@stable",
         "silverstripe/spellcheck": "2.1.0@stable",
