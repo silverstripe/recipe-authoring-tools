@@ -1,14 +1,4 @@
-language: php
-
-dist: xenial
-
-services:
-  - mysql
-  - postgresql
-
-env:
-  global:
-    - COMPOSER_ROOT_VERSION=1.x-dev
+version: ~> 1.0
 
 addons:
   apt:
@@ -17,30 +7,10 @@ addons:
       - libhunspell-dev
       - hunspell-en-us
 
-matrix:
-  include:
-    - php: 7.1
-      env: DB=MYSQL
-    - php: 7.2
-      env: DB=PGSQL
-    - php: 7.3
-      env: DB=MYSQL
-    - php: 7.4
-      env: DB=MYSQL
+import:
+  - silverstripe/silverstripe-travis-shared:config/provision/self-jobs-range.yml
 
-before_script:
-  - phpenv rehash
-  - phpenv config-rm xdebug.ini
-
-  - composer validate
-  - composer require --no-update silverstripe-themes/simple:^3
-  - if [[ $DB == PGSQL ]]; then composer require silverstripe/postgresql:^2 --no-update; fi
-  - composer require --no-update sminnee/phpunit-mock-objects:^3
-  - composer install --prefer-source --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
-
-  # Validate cow schema
-  - composer global require silverstripe/cow ^2
-  - ~/.config/composer/vendor/bin/cow schema:validate
-
-script:
-  - vendor/bin/phpunit --testsuite recipe-authoring-tools
+env:
+  global:
+    - REQUIRE_EXTRA="silverstripe-themes/simple:^3"
+    - PHPUNIT_SUITE="recipe-authoring-tools"
