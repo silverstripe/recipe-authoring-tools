@@ -1,6 +1,6 @@
 ## SilverStripe authoring tools recipe
 
-[![Build Status](https://travis-ci.org/silverstripe/recipe-authoring-tools.svg?branch=master)](https://travis-ci.org/silverstripe/recipe-authoring-tools)
+[![Build Status](https://api.travis-ci.com/silverstripe/recipe-authoring-tools.svg?branch=1)](https://travis-ci.com/silverstripe/recipe-authoring-tools)
 [![SilverStripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 
 This includes the following core SilverStripe modules:
