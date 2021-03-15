@@ -6,12 +6,12 @@
     "license": "BSD-3-Clause",
     "require": {
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-cms": "^4",
-        "silverstripe/documentconverter": "2.1.x-dev",
-        "silverstripe/iframe": "2.1.x-dev",
-        "silverstripe/spellcheck": "2.1.x-dev",
-        "silverstripe/tagfield": "2.5.x-dev",
-        "silverstripe/taxonomy": "2.1.x-dev"
+        "silverstripe/recipe-cms": "4.7.3@stable",
+        "silverstripe/documentconverter": "2.1.1@stable",
+        "silverstripe/iframe": "2.1.0@stable",
+        "silverstripe/spellcheck": "2.1.0@stable",
+        "silverstripe/tagfield": "2.5.0@stable",
+        "silverstripe/taxonomy": "2.1.0@stable"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7"
