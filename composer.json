@@ -7,11 +7,11 @@
     "require": {
         "silverstripe/recipe-plugin": "^1",
         "silverstripe/recipe-cms": "^4",
-        "silverstripe/documentconverter": "2.1-dev",
-        "silverstripe/iframe": "2.1-dev",
-        "silverstripe/spellcheck": "2.2-dev",
-        "silverstripe/tagfield": "2.6-dev",
-        "silverstripe/taxonomy": "2.2-dev"
+        "silverstripe/documentconverter": "2.1.x-dev",
+        "silverstripe/iframe": "2.1.x-dev",
+        "silverstripe/spellcheck": "2.2.x-dev",
+        "silverstripe/tagfield": "2.6.x-dev",
+        "silverstripe/taxonomy": "2.2.x-dev"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7"
