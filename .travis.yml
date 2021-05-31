@@ -12,5 +12,4 @@ import:
 
 env:
   global:
-    - REQUIRE_EXTRA="silverstripe-themes/simple:^3"
     - PHPUNIT_SUITE="recipe-authoring-tools"
