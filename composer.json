@@ -8,10 +8,10 @@
         "php": "^8.1",
         "silverstripe/recipe-plugin": "^2",
         "silverstripe/recipe-cms": "5.x-dev",
-        "silverstripe/documentconverter": "~3.0.0@beta",
-        "silverstripe/iframe": "~3.0.0@beta",
-        "silverstripe/tagfield": "~3.0.0@beta",
-        "silverstripe/taxonomy": "~3.0.0@beta"
+        "silverstripe/documentconverter": "3.0.x-dev",
+        "silverstripe/iframe": "3.0.x-dev",
+        "silverstripe/tagfield": "3.0.x-dev",
+        "silverstripe/taxonomy": "3.0.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
